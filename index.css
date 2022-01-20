@@ -1,0 +1,193 @@
+        /* HTML Tag Styling  */
+        
+        body {
+            background-color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-top: 3%;
+            /* text-align: center; */
+        }
+        
+        h1 {
+            font-size: 23px;
+        }
+        
+        a {
+            text-decoration: none;
+            margin-right: 0;
+            color: black;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        
+        p {
+            margin-block-start: 1em;
+        }
+        
+        .newsletter {
+            text-align: center;
+        }
+        
+        li {
+            margin: 0;
+            padding: 0;
+        }
+        /* Main Card  */
+        
+        .all-cards {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 3%;
+        }
+        
+        .comment-name {
+            font-size: 12px;
+            font-weight: 300;
+        }
+        
+        h6 {
+            font-weight: 600;
+        }
+        
+        .comment {
+            display: inline-flex;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        
+        .card-text {
+            margin: 5px;
+        }
+        
+        .name {
+            display: inline-flex;
+        }
+        
+        .all-cards::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .main {
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+            width: 21rem;
+        }
+        
+        .card-body {
+            font-weight: 200;
+            text-align: center;
+        }
+        
+        .cards-title {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 43px;
+            color: #33353d;
+            margin-bottom: 10px;
+        }
+        /* Card image  */
+        
+        .eq_img {
+            padding: 20px;
+            border-radius: 30px;
+            width: 100%;
+            height: auto;
+        }
+        
+        .card-body span {
+            font-weight: 500;
+            color: #90909a;
+        }
+        /* footer Part */
+        
+        hr {
+            margin: 35px;
+        }
+        
+        .footer-content {
+            margin-top: 10%;
+        }
+        
+        .btn-view {
+            margin-top: 15px;
+        }
+        
+        .get-btn {
+            margin: 0;
+        }
+        
+        .footer-container {
+            font-family: "open sans", sans-serif;
+        }
+        
+        .social {
+            display: inline;
+            margin: 10px;
+            cursor: pointer;
+        }
+        
+        .icon {
+            margin: 5px;
+        }
+        
+        .module-social {
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 2px;
+            font-weight: 400;
+            font-family: "open sans", sans-serif;
+        }
+        
+        .footer-container {
+            margin: 20px;
+        }
+        
+        .subscribe {
+            margin: 10px;
+            font-weight: 400;
+            font-family: "open sans", sans-serif;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 16px;
+            }
+            .main {
+                margin: 5px;
+                margin-left: 2.5px;
+                margin-right: 2.5px;
+                width: 18rem;
+            }
+            .cards-title h1 {
+                font-size: 18px;
+            }
+            .all-cards {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 3%;
+            }
+            .comment-name {
+                font-size: 10px;
+            }
+            .box-content {
+                text-align: center;
+            }
+            .footer-container {
+                text-align: center;
+            }
+        }
