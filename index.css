@@ -112,6 +112,7 @@
         
         hr {
             margin: 35px;
+            color: blue;
         }
         
         .footer-content {
@@ -120,6 +121,7 @@
         
         .btn-view {
             margin-top: 15px;
+            text-align: center;
         }
         
         .get-btn {
@@ -154,7 +156,11 @@
         }
         
         .footer-container {
-            margin: 20px;
+            margin: 5%;
+        }
+        
+        .bx {
+            margin: 0.0005rem;
         }
         
         .subscribe {
@@ -189,5 +195,8 @@
             }
             .footer-container {
                 text-align: center;
+            }
+            .view {
+                font-size: 10px;
             }
         }
